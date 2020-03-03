@@ -7,6 +7,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
+    "fs": "0.0.1-security",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
@@ -15,6 +16,7 @@
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-source-graphql": "^2.1.33",
     "gatsby-transformer-sharp": "^2.3.13",
     "material-ui-icons": "^1.0.0-beta.36",
     "prop-types": "^15.7.2",
@@ -44,5 +46,9 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "node": {
+    "fs": "empty",
+    "child_process": "empty"
   }
 }
