@@ -9,9 +9,8 @@ import SEO from "../components/seo";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-
+import Projects from "../components/inc/projects";
 const useStyles = makeStyles(theme => ({}));
-
 function IndexPage() {
   const classes = useStyles();
   return (
@@ -23,7 +22,7 @@ function IndexPage() {
         justify="center"
         alignItems="center"
         style={{
-          padding: "11rem 0px",
+          padding: "4rem 0px",
           position: "relative"
         }}
       >
@@ -61,12 +60,13 @@ function IndexPage() {
           <img src={undrew} />
         </Grid>
       </Grid>
-      <p>Welcome to your new Gatsby site.</p>
-      <p>Now go build something great.</p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-      <Link to="/page-2/">Go to page 2</Link>
+      <Grid container item xs="12" className={classes.image}>
+        <Typography variant="h5" gutterBottom style={{ fontWeight: "bold" }}>
+          {" "}
+          Projects
+        </Typography>
+      </Grid>
+      <Projects />
     </Layout>
   );
 }
