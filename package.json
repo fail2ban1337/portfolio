@@ -19,10 +19,12 @@
     "gatsby-source-graphql": "^2.1.33",
     "gatsby-transformer-sharp": "^2.3.13",
     "material-ui-icons": "^1.0.0-beta.36",
+    "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-scroll": "^1.7.16"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
