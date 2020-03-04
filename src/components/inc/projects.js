@@ -40,7 +40,7 @@ const Projectss = () => {
   console.log(process.env.GATSBY_GITHUB_USERNAME);
   useEffect(() => {
     fetch(
-      `https://api.github.com/users/${process.env.GATSBY_GITHUB_USERNAME}/repos`
+      `https://api.github.com/users/${process.env.GATSBY_GITHUB_USERNAME}/repos?sort=updated`
     )
       .then(response => response.json())
       .then(data => {
@@ -68,7 +68,12 @@ const Projectss = () => {
                   <CardHeader
                     className={classes.title}
                     title={
-                      <Typography gutterBottom variant="subtitle1">
+                      <Typography
+                        gutterBottom
+                        variant="subtitle1"
+                        className={classes.cursor}
+                        onClick={() => window.open(value.html_url, "_blank")}
+                      >
                         {value.name}
                       </Typography>
                     }
@@ -90,7 +95,12 @@ const Projectss = () => {
                     >
                       <Grid item xs={6}>
                         <div style={{ float: "left" }}>
-                          <StarIcon className={classes.cursor} />{" "}
+                          <StarIcon
+                            className={classes.cursor}
+                            onClick={() =>
+                              window.open(value.html_url, "_blank")
+                            }
+                          />{" "}
                           {value.stargazers_count}{" "}
                         </div>
                       </Grid>
