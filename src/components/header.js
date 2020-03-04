@@ -18,6 +18,7 @@ import blue from "@material-ui/core/colors/blue";
 import undrew from "../images/undraw_source_code_xx2e.svg";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const useStyles = makeStyles(theme => ({
   grow: {
@@ -27,7 +28,7 @@ const useStyles = makeStyles(theme => ({
     marginRight: theme.spacing(2)
   },
   title: {
-    color: blue[200],
+    color: "#3f51b5",
     display: "none",
     [theme.breakpoints.up("sm")]: {
       display: "block"
@@ -129,15 +130,30 @@ export default function Header() {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
-      <MenuItem style={{ color: blue[500] }}>
-        <p>Home</p>
-      </MenuItem>
-      <MenuItem style={{ color: blue[500] }}>
-        <p>Projects</p>
-      </MenuItem>
-      <MenuItem style={{ color: blue[500] }}>
-        <p>Contacts</p>
-      </MenuItem>
+      <Link
+        activeClass="active"
+        to="projects"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        <MenuItem style={{ color: "#3f51b5" }}>
+          <p>Projects</p>
+        </MenuItem>
+      </Link>
+      <Link
+        activeClass="active"
+        to="contacts"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        <MenuItem style={{ color: "#3f51b5" }}>
+          <p>Contacts</p>
+        </MenuItem>
+      </Link>
     </Menu>
   );
 
@@ -153,9 +169,26 @@ export default function Header() {
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <MenuItem style={{ color: blue[500] }}>Home</MenuItem>
-            <MenuItem style={{ color: blue[500] }}>Projects</MenuItem>
-            <MenuItem style={{ color: blue[500] }}>Contacts</MenuItem>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <MenuItem style={{ color: "#3f51b5" }}>Projects</MenuItem>
+            </Link>
+            <Link
+              activeClass="active"
+              to="contacts"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <MenuItem style={{ color: "#3f51b5" }}>Contacts</MenuItem>
+            </Link>
           </div>
           <div className={classes.sectionMobile}>
             <IconButton
