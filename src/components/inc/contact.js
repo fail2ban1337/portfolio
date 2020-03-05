@@ -26,10 +26,10 @@ export default function Contact() {
   });
   const [open, setOpen] = useState({
     check: false,
-    sucess: "info"
+    success: "info"
   });
 
-  console.log(form);
+  console.log(open);
   const sendEmail = e => {
     e.preventDefault();
 
@@ -37,7 +37,7 @@ export default function Contact() {
       setOpen({
         ...open,
         check: true,
-        sucess: "error"
+        success: "error"
       });
     } else
       emailjs
@@ -52,16 +52,16 @@ export default function Contact() {
             setOpen({
               ...open,
               check: true,
-              sucess: "info"
+              success: "info"
             });
           },
           error => {
             setOpen({
               ...open,
               check: true,
-              sucess: "error"
+              success: "error"
             });
-            console.log(error.text);
+            console.log("error", error.text);
           }
         );
   };
@@ -82,7 +82,7 @@ export default function Contact() {
       >
         <Collapse in={open.check}>
           <Alert
-            severity={open.sucess}
+            severity={open.success}
             action={
               <IconButton
                 aria-label="close"
@@ -92,7 +92,7 @@ export default function Contact() {
                   setOpen({
                     ...open,
                     check: false,
-                    sucess: open.sucess
+                    success: open.success
                   });
                 }}
               >
