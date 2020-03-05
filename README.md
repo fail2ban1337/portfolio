@@ -26,7 +26,7 @@ Here's the technical stack this boilerplate was made with:
 Modules: ```npm i ```
 
 # View
-<img width="1200" alt="Screen Shot 2020-03-05 at 7 17 59 PM" src="https://user-images.githubusercontent.com/47558088/76012444-9449b880-5f16-11ea-977f-afbcf6ffc313.png">
+<img width="1200" alt="Screen Shot 2020-03-05 at 7 23 36 PM" src="https://user-images.githubusercontent.com/47558088/76012602-d70b9080-5f16-11ea-8bff-77125e420814.png">
 
 <img width="1200" alt="Screen Shot 2020-03-05 at 7 18 10 PM" src="https://user-images.githubusercontent.com/47558088/76012467-9e6bb700-5f16-11ea-9764-ae619e7a058f.png">
 
