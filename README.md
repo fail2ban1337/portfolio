@@ -1,7 +1,7 @@
-# portfolio <a href="https://peaceful-engelbart-eab2db.netlify.com/">:shipit: demo</a>
+# portfolio 
 
 A stylish, one page, material ui portfolio theme
-
+<a href="https://peaceful-engelbart-eab2db.netlify.com/"> demo</a> :shipit:
 
 # Set up
 🚀Quick start<br>
