@@ -1,6 +1,7 @@
 # portfolio
 
-:shipit: demo: https://peaceful-engelbart-eab2db.netlify.com/
+<a href="https://peaceful-engelbart-eab2db.netlify.com/">:shipit: demo</a>
+
 
 # Set up
 🚀Quick start<br>
