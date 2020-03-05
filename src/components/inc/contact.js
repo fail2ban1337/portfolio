@@ -121,9 +121,9 @@ export default function Contact() {
           <Grid container item sm={7} xs={12}>
             <Grid item xs={11}>
               <TextField
+                variant="outlined"
                 fullWidth
                 name="user_name"
-                id="outlined-basic"
                 label="full name*"
                 value={form.user_name}
                 type="text"
@@ -132,9 +132,9 @@ export default function Contact() {
             </Grid>
             <Grid item xs={11} style={{ marginTop: "20px" }}>
               <TextField
+                variant="outlined"
                 fullWidth
                 label="email*"
-                id="outlined-basic"
                 name="user_email"
                 type="email"
                 value={form.user_email}
@@ -143,6 +143,7 @@ export default function Contact() {
             </Grid>
             <Grid item xs={11} style={{ marginTop: "20px" }}>
               <TextField
+                variant="outlined"
                 multiline
                 rows="4"
                 fullWidth
@@ -164,7 +165,6 @@ export default function Contact() {
               </Button>
             </Grid>
           </Grid>
-
           <Grid item sm={5} xs={12}>
             <img src={undrew2} />
           </Grid>
