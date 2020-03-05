@@ -17,10 +17,10 @@ export default function Interduction() {
         position: "relative"
       }}
     >
-      <Grid item sm="8" xs="12">
+      <Grid item sm={8} xs={12}>
         <img src={undrew1} />
       </Grid>
-      <Grid container item sm="4" xs="12" justify="center">
+      <Grid container item sm={4} xs={12} justify="center">
         <Typography
           variant="h5"
           style={{ color: "black", marginBottom: "20px" }}
@@ -40,7 +40,7 @@ export default function Interduction() {
           developement are javascript (ES6+), Node.js, Reactjs, SQL, NOSQL &
           PHP...
         </Typography>
-        <Grid container item xs="12" justify="center">
+        <Grid container item xs={12} justify="center">
           <Link
             activeClass="active"
             to="contacts"

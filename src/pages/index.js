@@ -28,7 +28,7 @@ function IndexPage() {
           position: "relative"
         }}
       >
-        <Grid container item sm="4" xs="12">
+        <Grid container item sm={4} xs={12}>
           <Typography variant="h2" style={{ color: "black" }}>
             Hi There!
           </Typography>
@@ -39,7 +39,7 @@ function IndexPage() {
           >
             I’m Ayoub Belomari and I’m a Full-Stack Web Developer!
           </Typography>
-          <Grid container item xs="12" justify="center">
+          <Grid container item xs={12} justify="center">
             <Link
               activeClass="active"
               to="contacts"
@@ -54,11 +54,11 @@ function IndexPage() {
             </Link>
           </Grid>
         </Grid>
-        <Grid item sm="8" xs="12">
+        <Grid item sm={8} xs={12}>
           <img src={undrew} />
         </Grid>
       </Grid>
-      <Grid container item xs="12" className={classes.image}>
+      <Grid container item xs={12} className={classes.image}>
         <Typography variant="h5" gutterBottom style={{ fontWeight: "bold" }}>
           {" "}
           Projects
