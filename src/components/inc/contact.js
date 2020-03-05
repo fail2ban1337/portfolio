@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import undrew2 from "../../images/undraw_delivery_address_03n0.svg";
 import TextField from "@material-ui/core/TextField";
@@ -134,33 +133,33 @@ export default function Contact() {
             </Grid>
             <Grid item xs={11} style={{ marginTop: "20px" }}>
               <TextField
+                variant="outlined"
                 fullWidth
                 label="email*"
                 id="outlined-basic"
                 name="user_email"
                 type="email"
                 value={form.user_email}
-                variant="outlined"
                 onChange={event => handleChange(event)}
               />
             </Grid>
             <Grid item xs={11} style={{ marginTop: "20px" }}>
               <TextField
+                variant="outlined"
                 multiline
                 rows="4"
                 fullWidth
                 name="message"
                 label="message*"
                 value={form.message}
-                variant="outlined"
                 type="text"
                 onChange={event => handleChange(event)}
               />
             </Grid>
             <Grid container item xs={12} style={{ marginTop: "20px" }}>
               <Button
-                type="submit"
                 variant="contained"
+                type="submit"
                 color="primary"
                 disableElevation
               >
