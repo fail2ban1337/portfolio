@@ -3,7 +3,7 @@
 
 # Set up
 🚀Quick start<br>
-creat a ```.env.development``` file and replace all those info
+creat a ```./.env.development``` file and replace all those info
 ```
 GATSBY_GITHUB_USERNAME = fail2ban1337
 GATSBY_USER_ID =  YOUR_USER_ID of Emailjs
@@ -21,3 +21,6 @@ Here's the technical stack this boilerplate was made with:
 - Gatsby
 - Reactjs
 - MaterialUi
+
+# Run
+Modules: ```npm i ```
