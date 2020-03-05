@@ -24,3 +24,14 @@ Here's the technical stack this boilerplate was made with:
 
 # Run
 Modules: ```npm i ```
+
+# View
+<img width="1200" alt="Screen Shot 2020-03-05 at 7 17 59 PM" src="https://user-images.githubusercontent.com/47558088/76012444-9449b880-5f16-11ea-977f-afbcf6ffc313.png">
+
+<img width="1200" alt="Screen Shot 2020-03-05 at 7 18 10 PM" src="https://user-images.githubusercontent.com/47558088/76012467-9e6bb700-5f16-11ea-9764-ae619e7a058f.png">
+
+<img width="1200" alt="Screen Shot 2020-03-04 at 6 30 26 PM" src="https://user-images.githubusercontent.com/47558088/76012404-82681580-5f16-11ea-99fc-690ce885cd1a.png">
+
+<img width="1232" alt="Screen Shot 2020-03-05 at 7 18 23 PM" src="https://user-images.githubusercontent.com/47558088/76012510-afb4c380-5f16-11ea-9098-b1eec7214a14.png">
+
+
