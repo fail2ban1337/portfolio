@@ -165,7 +165,6 @@ export default function Contact() {
               >
                 Send
               </Button>
-              <TextField id="outlined-name" label="Name" variant="outlined" />
             </Grid>
           </Grid>
 
