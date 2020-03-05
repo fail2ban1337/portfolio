@@ -111,6 +111,7 @@ export default function Contact() {
           container
           direction="row"
           justify="center"
+          id="outlined-basic"
           alignItems="flex-start"
           style={{
             padding: "3rem 0px",
@@ -123,6 +124,7 @@ export default function Contact() {
               <TextField
                 fullWidth
                 name="user_name"
+                id="outlined-basic"
                 label="full name*"
                 value={form.user_name}
                 type="text"
@@ -134,6 +136,7 @@ export default function Contact() {
               <TextField
                 fullWidth
                 label="email*"
+                id="outlined-basic"
                 name="user_email"
                 type="email"
                 value={form.user_email}
@@ -151,9 +154,6 @@ export default function Contact() {
                 value={form.message}
                 variant="outlined"
                 type="text"
-                inputProps={{
-                  style: { borderColor: "red" }
-                }}
                 onChange={event => handleChange(event)}
               />
             </Grid>
