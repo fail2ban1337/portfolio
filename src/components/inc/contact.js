@@ -121,10 +121,9 @@ export default function Contact() {
           <Grid container item sm={7} xs={12}>
             <Grid item xs={11}>
               <TextField
-                variant="outlined"
-                fullWidth
-                name="user_name"
                 label="full name*"
+                variant="outlined"
+                name="user_name"
                 value={form.user_name}
                 type="text"
                 onChange={event => handleChange(event)}
@@ -132,9 +131,8 @@ export default function Contact() {
             </Grid>
             <Grid item xs={11} style={{ marginTop: "20px" }}>
               <TextField
-                variant="outlined"
-                fullWidth
                 label="email*"
+                variant="outlined"
                 name="user_email"
                 type="email"
                 value={form.user_email}
@@ -143,12 +141,11 @@ export default function Contact() {
             </Grid>
             <Grid item xs={11} style={{ marginTop: "20px" }}>
               <TextField
+                label="message*"
                 variant="outlined"
                 multiline
                 rows="4"
-                fullWidth
                 name="message"
-                label="message*"
                 value={form.message}
                 type="text"
                 onChange={event => handleChange(event)}
