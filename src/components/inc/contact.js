@@ -127,13 +127,11 @@ export default function Contact() {
                 label="full name*"
                 value={form.user_name}
                 type="text"
-                variant="outlined"
                 onChange={event => handleChange(event)}
               />
             </Grid>
             <Grid item xs={11} style={{ marginTop: "20px" }}>
               <TextField
-                variant="outlined"
                 fullWidth
                 label="email*"
                 id="outlined-basic"
@@ -145,7 +143,6 @@ export default function Contact() {
             </Grid>
             <Grid item xs={11} style={{ marginTop: "20px" }}>
               <TextField
-                variant="outlined"
                 multiline
                 rows="4"
                 fullWidth
