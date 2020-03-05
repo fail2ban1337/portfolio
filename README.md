@@ -23,7 +23,7 @@ Here's the technical stack this boilerplate was made with:
 - MaterialUi
 
 # Run
-Modules: ```npm i ```
+Modules: ```npm i ```<br>
          ```gatsby develop```
 
 # View
