@@ -24,6 +24,7 @@ Here's the technical stack this boilerplate was made with:
 
 # Run
 Modules: ```npm i ```
+         ```gatsby develop```
 
 # View
 <img width="1200" alt="Screen Shot 2020-03-05 at 7 23 36 PM" src="https://user-images.githubusercontent.com/47558088/76012602-d70b9080-5f16-11ea-8bff-77125e420814.png">
