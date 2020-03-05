@@ -10,7 +10,7 @@ GATSBY_USER_ID =  YOUR_USER_ID of Emailjs
 GATSBY_TEMPLATE_ID = Your TEMPLATE_ID of Emailjs
 GATSBY_SERVICE_ID = Your SERVICE_ID of Emailjs
 GATSBY_USER_NAME = Ayoub Belomari
-GATSBY_USER_BIRTH = Your Birthday yyy-mm-dd
+GATSBY_USER_BIRTH = Your Birthday yyyy-mm-dd
 GATSBY_INTRA_USERNAME = Abelomar
 ```
 
