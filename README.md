@@ -2,7 +2,7 @@
 
 
 # Set up
-🚀Quick start
+🚀Quick start<br>
 creat a ```.env.development``` file and replace all those info
 ```
 GATSBY_GITHUB_USERNAME = fail2ban1337
