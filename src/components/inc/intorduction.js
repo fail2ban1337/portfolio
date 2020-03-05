@@ -4,6 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import undrew1 from "../../images/undraw_certificate_343v.svg";
 import Button from "@material-ui/core/Button";
 import { Link, animateScroll as scroll } from "react-scroll";
+import moment from "moment";
 
 export default function Interduction() {
   return (
@@ -36,9 +37,9 @@ export default function Interduction() {
             marginBottom: "20px"
           }}
         >
-          I’m a 26 years old student from Morocco, My Skills and interest in web
-          developement are javascript (ES6+), Node.js, Reactjs, SQL, NOSQL &
-          PHP...
+          I’m a {moment().diff(process.env.GATSBY_USER_BIRTH, "years")} years
+          old student from Morocco, My Skills and interest in web developement
+          are javascript (ES6+), Node.js, Reactjs, SQL, NOSQL & PHP...
         </Typography>
         <Grid container item xs={12} justify="center">
           <Link

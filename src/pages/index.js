@@ -37,7 +37,8 @@ function IndexPage() {
             gutterBottom
             style={{ color: "rgb(112, 112, 112)" }}
           >
-            I’m Ayoub Belomari and I’m a Full-Stack Web Developer!
+            I’m {process.env.GATSBY_USER_NAME} and I’m a Full-Stack Web
+            Developer!
           </Typography>
           <Grid container item xs={12} justify="center">
             <Link

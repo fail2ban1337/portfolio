@@ -154,7 +154,7 @@ export default function Header() {
       >
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            Abelomar
+            {process.env.GATSBY_INTRA_USERNAME}
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>

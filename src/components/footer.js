@@ -14,7 +14,10 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
-      <Link color="inherit" href="https://github.com/fail2ban1337">
+      <Link
+        color="inherit"
+        href={`https://github.com/${process.env.GATSBY_GITHUB_USERNAME}`}
+      >
         Fail2ban1337
       </Link>{" "}
       {new Date().getFullYear()}
