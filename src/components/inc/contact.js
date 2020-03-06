@@ -25,7 +25,7 @@ export default function Contact() {
   });
   const [open, setOpen] = useState({
     check: false,
-    success: "info"
+    success: "success"
   });
 
   console.log(open);
@@ -51,7 +51,7 @@ export default function Contact() {
             setOpen({
               ...open,
               check: true,
-              success: "info"
+              success: "success"
             });
           },
           error => {
@@ -99,7 +99,7 @@ export default function Contact() {
               </IconButton>
             }
           >
-            {open.success === "info"
+            {open.success === "success"
               ? "The email has been sent!"
               : "Error en sending email"}
           </Alert>
